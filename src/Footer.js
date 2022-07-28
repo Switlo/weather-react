@@ -15,7 +15,7 @@ export default function Footer() {
         </a>&nbsp;
         
         | Open-sourced code is on&nbsp;
-        <a href="https://github.com/Switlo/Vanilla-Weather-App" target="_blank" rel="noopener">
+        <a href="https://github.com/Switlo/weather-react" target="_blank" rel="noopener">
           GitHub
         </a>
       </p>
