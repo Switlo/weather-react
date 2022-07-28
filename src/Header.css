@@ -1,0 +1,24 @@
+
+#weekDay,
+#currentTime {
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.today {
+  font-weight: 700;
+  text-align: left;
+  font-size: 15px;
+  color: #383838;
+  margin-top: -8px;
+  margin-bottom: 10px;
+}
+#formaCity {
+  min-width: 210px;
+}
+
+#card {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
