@@ -11,8 +11,8 @@ export default function HeaderForm() {
           type="search"
           id="city-input"
           placeholder="Type a city and press Enter"
-          autofocus="on"
-          autocomplete="off"
+          autoFocus="on"
+          autoComplete="off"
         />
       </form>
     </div>

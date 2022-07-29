@@ -11,7 +11,7 @@ export default function Header() {
       <div className="card-body">
         <div className="row">
           <div className="col">
-            <HeaderDate day="Friday" time="18:33" date="July 15, 2022" />
+            <HeaderDate />
           </div>
           <div className="col">
             <HeaderForm />

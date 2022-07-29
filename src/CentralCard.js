@@ -9,7 +9,7 @@ export default function CentralCard() {
     <div className="row g-0">
       <div className="col">
         <CentralCity
-          city="Lviv"
+          city="Kyiv"
           weather="cloudy"
           humidity="84"
           wind="3"
