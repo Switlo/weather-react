@@ -3,7 +3,7 @@ import React from "react";
 import "./Header.css";
 
 export default function HeaderDate() {
-  let now = new Date();
+let now = new Date();
 let days = [
   "Sunday",
   "Monday",
