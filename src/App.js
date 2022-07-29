@@ -4,7 +4,7 @@ import CentralCard from "./CentralCard";
 import NextDays from "./NextDays";
 import Footer from "./Footer";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="container" id="container">
@@ -18,5 +18,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
