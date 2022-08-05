@@ -1,27 +1,37 @@
 import React from "react";
+import "./Header.css";   
+      
 
-import "./CentralCard.css";
+export default function CentralCity (props) {
+  console.log(props.data)
+  if (!props.data) {return <div></div>} 
 
-export default function CentralCity(props) {
+ const{name,
+  sys:{country},
+  main:{temp, humidity},
+  weather,
+  wind:{speed},
+  // icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`  
+ } = props.data
+
   return (
-    <div className="card" id="centeralCard">
+    <div className="card" id="centralCard">
       <div className="card-body py-0">
         <div className="row">
           <div className="col">
             <h1 className="searchCity">
-              <span id="searchCity">{props.city}</span>,
-              <span id="cityCountry"></span>
+              {name}, {country}
             </h1>
             <h3 className="description" id="description">
-              {props.weather}
+              {weather[0].description}
             </h3>
             <div>
               <ul className="todayAnother">
                 <li>
-                  Humidity: <span id="currentHumidity">{props.humidity}</span>%
+                  Humidity: <span id="currentHumidity">{humidity}</span>%
                 </li>
                 <li>
-                  Wind: <span id="currentWind">{props.wind}</span> m/sec
+                  Wind: <span id="currentWind">{speed}</span> m/sec
                 </li>
               </ul>
             </div>
@@ -34,7 +44,7 @@ export default function CentralCity(props) {
             />
             <div className="temperature-units">
               <span className="temperature" id="temperature">
-                {props.t}
+                {temp}
               </span>
               <span className="units">
                 <a href="#top" id="celsius-link" className="active">
@@ -50,5 +60,5 @@ export default function CentralCity(props) {
         </div>
       </div>
     </div>
-  );
+  ); 
 }

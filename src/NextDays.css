@@ -1,10 +1,9 @@
 #weather-nextdays{
-    padding-top: 0;
-    padding-right: 0;
-    background-color: transparent;
-    border: none;
-  }
-  .nextdays{
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+.nextdays{
     display: block;
     width: 100px;
     height: 100px;

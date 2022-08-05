@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./CentralCard.css";
+import "./Header.css";
 
 export default function CentralAphorism() {
   let quotes = [
@@ -22,7 +22,7 @@ export default function CentralAphorism() {
   }
 
   return (
-    <div className="card" id="centeralCard" >
+    <div className="card" id="centralCard" >
       <div className="card-body" id="aphorism">
         <h2 className="aphorism">
           {quoter}
